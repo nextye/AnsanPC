@@ -1,6 +1,6 @@
 /*
- * 1. In_Temp port변경 "1013"
- *  -. ESP-32 GPIO 불량?  GPIO27 -> GPIO34
+ * 1. In_Temp port변경 "1226"
+ *  -. ESP-32 GPIO 불량?  GPIO27 -> GPIO34 ADC2 is used by Wi-Fi Driver.
  *  -. makeCelsius()  1024(10bit) -> 4095(12bit: 0xFFF)
  *  
  * 2. Reg-Val change	"1014"
